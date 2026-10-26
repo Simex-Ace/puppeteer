@@ -1,5 +1,29 @@
 # Changelog
 
+## [25.17.0](https://github.com/puppeteer/puppeteer/compare/puppeteer-core-v25.16.0...puppeteer-core-v25.17.0) (2026-10-26)
+
+
+### 🎉 Features
+
+* add scriptId to ConsoleMessageLocation ([#15537](https://github.com/puppeteer/puppeteer/issues/15537)) ([f3511d8](https://github.com/puppeteer/puppeteer/commit/f3511d8529e23fb32441b54928b61abc837e9236))
+
+
+### 🛠️ Fixes
+
+* deflake BiDi navigation and flaky tests from main CI ([#15638](https://github.com/puppeteer/puppeteer/issues/15638)) ([d8ef67a](https://github.com/puppeteer/puppeteer/commit/d8ef67a5ce6bf9b307408290389a8339e99c2f4c))
+* do not mutate options.args in defaultArgs ([#15664](https://github.com/puppeteer/puppeteer/issues/15664)) ([1581677](https://github.com/puppeteer/puppeteer/commit/15816772ad01431b976ff1bb052456a0aa9ecd0b))
+* do not throw in evaluate when the caller stack frame is missing ([#15666](https://github.com/puppeteer/puppeteer/issues/15666)) ([28782a2](https://github.com/puppeteer/puppeteer/commit/28782a2b84f431b88c559bbf78d0f243b144d27f))
+* **extensions:** support Target.attachToTarget in ExtensionTransport ([#15647](https://github.com/puppeteer/puppeteer/issues/15647)) ([c615311](https://github.com/puppeteer/puppeteer/commit/c615311db0f6f1826f31cbc59978e8367b2ed9b3))
+* **network:** emit requestfailed when loadingFailed precedes requestPaused ([#15576](https://github.com/puppeteer/puppeteer/issues/15576)) ([5b0c34a](https://github.com/puppeteer/puppeteer/commit/5b0c34aa079e5943921bce65be67e360e581e862))
+* type wildcard event emitter handlers correctly ([#15643](https://github.com/puppeteer/puppeteer/issues/15643)) ([08e7b1a](https://github.com/puppeteer/puppeteer/commit/08e7b1aebe60462b6f7834e9dfe0f6c70464247c))
+* **webdriver:** dispose requests that complete with a 3xx status but are not redirected ([#15631](https://github.com/puppeteer/puppeteer/issues/15631)) ([fac3a5b](https://github.com/puppeteer/puppeteer/commit/fac3a5b659d19f7108c8d2fc44d14f4161ef46d2))
+* **webdriver:** support the Space key over WebDriver BiDi ([#15650](https://github.com/puppeteer/puppeteer/issues/15650)) ([346bace](https://github.com/puppeteer/puppeteer/commit/346bace62a480837302c9c820db0858d6e377e1b))
+
+
+### 📄 Documentation
+
+* **pdf:** clarify emulateMediaType('screen') behavior with page.pdf() ([#15636](https://github.com/puppeteer/puppeteer/issues/15636)) ([a1149f3](https://github.com/puppeteer/puppeteer/commit/a1149f302f8c1ddd0740fe26964c59e8533d1179))
+
 ## [25.16.0](https://github.com/puppeteer/puppeteer/compare/puppeteer-core-v25.15.0...puppeteer-core-v25.16.0) (2026-10-22)
 
 
